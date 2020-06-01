@@ -809,7 +809,7 @@ button,
     input[type="button"],
     button,
     .button {
-      padding: 0; } }
+      padding: 1; } }
 
 /* Header */
 #header h1 {
