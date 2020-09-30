@@ -32,6 +32,58 @@ body {
   padding-top: 0px;
 }
 
+iframe {
+  background: transparent !important;
+  border: none!important;
+  margin: 0 auto;
+}
+
+iframe input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: border-color 0.2s ease, background-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease, background-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease, background-color 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  background-color: transparent;
+  border-radius: 6px;
+  border: none;
+  border: solid 2px rgba(255, 255, 255, 0.35);
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%; }
+  input[type="text"]:invalid,
+  input[type="password"]:invalid,
+  input[type="email"]:invalid,
+  select:invalid,
+  textarea:invalid {
+    margin: 0 0 1em;
+    box-shadow: none; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  select:focus,
+  textarea:focus {
+    -moz-animation: focus 0.1s;
+    -webkit-animation: focus 0.1s;
+    -ms-animation: focus 0.1s;
+    animation: focus 0.1s;
+    background-color: rgba(255, 255, 255, 0.125);
+    border-color: #1a77f2; }
+
 .logo {
   -moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
   -webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
