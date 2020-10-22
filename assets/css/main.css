@@ -3579,13 +3579,9 @@ input, select, textarea {
 				border-color: #dddddd;
 			}
 
-		#main .icon.alt {
-			border-color: #dddddd;
-			color: #636363;
-		}
-
 			#main .icon.alt:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				color: white;
+				background-color: rgba(145, 193, 233, 0.4)!important;
 			}
 
 			#main .icon.alt:active {
